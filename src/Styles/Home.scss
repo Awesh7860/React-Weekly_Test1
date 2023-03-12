@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+.home{
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../Assets/bg1.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+   >div{
+    width: 50%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    >h1{
+        font-size: 2.5rem;
+        font-weight: 500;
+        color: white;
+        font-family: 'Raleway', sans-serif;
+    }
+    >div{
+        >p{
+            font-size: 0.9rem;
+            padding-left: 2rem;
+            line-height: 1.3rem;
+            font-family: 'Raleway', sans-serif;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+    
+    >button{
+        width: 18%;
+        height: 20%;
+        border-radius: 20px;
+        background-color:#4782d3;
+        color: white;
+        border: none;
+        outline: none;
+    }
+   }
+}
+.home2{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    >h1{
+        font-family: 'Raleway', sans-serif;
+        padding: 2rem;
+    }
+}
+.cards{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    align-self: center;
+    justify-content: space-around;
+}
+.responsive,.author,.elements{
+width: 30%;
+height: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+>div{
+    width: 80px;
+    height: 80px;
+    background-color: #4782d3;
+    border-radius: 50%;
+    display: flex;
+    margin: 2rem;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    color: white;
+}
+>h3{
+    margin-top: 1.7rem;
+    margin-bottom: 1rem;
+}
+>p{
+
+    display: flex;
+    flex-direction: column;
+    color: gray;
+    font-size: 0.9rem;
+    align-self: center;
+    justify-content: center;
+    line-height: 1.5rem;
+}
+>a{
+    margin-top: 1rem;
+    color: #4782d3;
+}
+}
+.home3{
+    width: 100%;
+    height: 50vh;
+    background-image: url(../Assets/bg2.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.card1,.card2,.card3,.card4{
+    width: 22%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    font-size: 2.2rem;
+   color: white;
+   justify-content: space-evenly;
+   align-items:center ;
+   >p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5rem;
+   }
+   .num{
+    font-size: 2.3rem;
+    font-family: "Roboto";
+   }
+
+}
